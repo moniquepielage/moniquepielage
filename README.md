@@ -7,7 +7,8 @@ My name is Monique Pielage
 I am doing this because i want to get in to machine learning. I am totally new to all of this, but loving it so far.Along the way I will be using my python practice repository to keep track of my progress. eventually I want to be able to build a rag system for schools in the netherlands  
 
 - 💬 Ask me about 
-- 📫 How to reach me: you can 
+- 📫 How to reach me: you can reach me on LinkedIn https://www.linkedin.com/in/monique-pielage-waalboer/
+-                     or Email Monique@waalboerswebwereld.com
 - 😄 Pronouns: mrs
 - ⚡ Fun fact: wife and mom of two boys ,Love my dog and family! Totally selftaught (with the help of courses..) 
 -->
