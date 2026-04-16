@@ -3,7 +3,7 @@
 My name is Monique Pielage
 
 - 🔭 I’m currently working on keeping my WordPress clients happy and hosted, but even more so...
-- 🌱 I’m just finished the course Python for Everybody. And I am now practicing different things like making databases, visualizing data and just standard python functions etc.
+- 🌱 I’ve just finished the course Python for Everybody. And I am now practicing different things like making databases, visualizing data, and just standard Python functions, etc.
 -  I am starting the course Machine Learning by Deeplearning.AI & Stanford University (Andrew Ng)
 - 
 I am doing this because I want to get into machine learning. I am totally new to all of this, but loving it so far.
