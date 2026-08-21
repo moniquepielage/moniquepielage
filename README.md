@@ -1,18 +1,48 @@
-## Hi there 👋
+# Hi there 👋 I'm Monique Pielage
 
-My name is Monique Pielage
+Self-taught developer and founder of **Waalboers Web Services**, building AI-powered tools for primary and secondary education in the Netherlands. I started out building and hosting **WordPress** sites for clients, and from there worked my way into the world of AI. I care about products that hold up in the real world: reliable, compliant, and genuinely useful in the classroom.
 
-- 🔭 I’m currently working on keeping my WordPress clients happy and hosted, but even more so...
-- 🌱 I’ve just finished the course Python for Everybody. And I am now practicing different things like making databases, visualizing data, and just standard Python functions, etc.
--  I am starting the course Machine Learning by Deeplearning.AI & Stanford University (Andrew Ng)
-- 
-I am doing this because I want to get into machine learning. I am totally new to all of this, but loving it so far.
-Along the way, I will be using my Python practice repository to keep track of my progress. Eventually, I want to be able to build a rag system for schools in the Netherlands. At least that is my goal for now, but I am quite sure there will be other things that I will want to build while learning the capabilities machine learning has. 
+---
 
+## 🚀 Featured project — AI-op-school
 
-- 💬 Ask me about anything, but I Am not sure I'll have an answer😄
-- 📫 How to reach me: you can reach me on LinkedIn https://www.linkedin.com/in/monique-pielage-waalboer/
--                     or Email Monique@waalboerswebwereld.com
-- 😄 Pronouns: mrs
-- ⚡ Fun fact: wife and mom of two boys ,Love my dog and family! Totally self-taught (with the help of courses) big formula 1 fan!
--->
+A **Google Workspace add-on** (published on the Google Workspace Marketplace) that helps teachers differentiate lesson material and assignments across **eleven learning-support profiles** — without lowering the academic level. The teacher keeps their own document; the tool only adapts where a specific barrier requires it, and never does the student's thinking for them.
+
+**How it's built:**
+- **Frontend:** Google Docs sidebar add-on (Apps Script), plus Firebase-authenticated dashboards for school leadership.
+- **Backend:** serverless on **Google Cloud** — **Cloud Run** + **Cloud Functions**, with **Firestore** for state and usage data.
+- **AI layer:** document rewriting powered by **Gemini** (Vertex AI), driven by a profile-specific approach (rewrite the *material* vs. compensate the *task*).
+- **Auth & access:** **Firebase Authentication**; published with **verified, narrow OAuth scopes** after Google's app-verification process.
+- **Hosting:** website served from **Cloud Storage** behind **Cloud Load Balancing** with Google-managed HTTPS.
+- **Region & compliance:** runs in `europe-west4` with **EU data residency**, data minimization, and no training on customer data — built around Dutch education privacy standards (AVG/GDPR) and the EU AI Act.
+
+Serves both primary (PO) and secondary (VO) schools, licensed per school.
+
+---
+
+## 🌱 What I'm working on now
+
+- Scaling and maintaining AI-op-school across Dutch schools.
+- Building a **Microsoft 365 (Word) version** as a task-pane add-in, reusing the same EU Cloud Run backend.
+- Designing a commercial **AI-training program** for secondary schools.
+- Exploring **agentic AI** on Google Cloud (Vertex AI + agent frameworks).
+
+## 📚 How I got here
+
+During my WordPress years I learned to read and work with **HTML, CSS and JavaScript**. When I started diving into AI, I saw the value of **Python** and completed *Python for Everybody*. To actually build AI-op-school, I taught myself **Google Apps Script** and the **Google Cloud Platform**. Right now I'm working through *Machine Learning* (DeepLearning.AI & Stanford, Andrew Ng) — totally self-taught, with the help of good courses, and deepening my ML and cloud foundations as I go.
+
+---
+
+## 🛠️ Tech I work with
+
+Google Cloud (Cloud Run, Cloud Functions, Firestore, Firebase, Cloud Load Balancing) · Vertex AI / Gemini · Google Apps Script · JavaScript · Python · WordPress
+
+---
+
+## 📫 Get in touch
+
+- LinkedIn: https://www.linkedin.com/in/monique-pielage-waalboer/
+- Email: Monique@waalboerswebwereld.com
+- Pronouns: she/her
+
+⚡ **Fun facts:** wife and mom of two boys, dog lover, and a big Formula 1 fan. 🏎️
