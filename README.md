@@ -19,6 +19,20 @@ A **Google Workspace add-on** (published on the Google Workspace Marketplace) th
 Serves both primary (PO) and secondary (VO) schools, licensed per school.
 
 ---
+---
+
+## 🤖 Latest project — Classroom Differentiation Agent
+An **autonomous multi-agent system** built for the **All Things Agentic Hackathon** (Google Cloud / Devpost, Taskmaster track). A teacher pastes one lesson and ticks the learning-support profiles present in the class; the agent rewrites the material once per profile — **without lowering the academic level** — and checks every rewrite against a fixed set of pedagogical rules before showing it.
+
+**How it's built:**
+- **Agents:** two **Google ADK** agents — a rewrite specialist (profile passed in as a parameter) and a guardrail agent that enforces the pedagogical constitution — orchestrated from a FastAPI backend.
+- **AI layer:** **Gemini 3.5 Flash** on **Vertex AI**, EU endpoint.
+- **Runtime:** **Cloud Run** in `europe-west4`; frontend served by the same FastAPI service.
+- **Privacy by design:** teachers tick which barriers occur in the class — no names, no per-pupil data.
+
+The pedagogical rules are being refined together with a practising teacher and an educational specialist.
+
+🔗 **Live demo:** https://differentiatie-agent-161152860490.europe-west4.run.app
 
 ## 🌱 What I'm working on now
 
