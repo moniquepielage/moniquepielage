@@ -49,7 +49,7 @@ During my WordPress years I learned to read and work with **HTML, CSS and JavaSc
 
 ## 🛠️ Tech I work with
 
-Google Cloud (Cloud Run, Cloud Functions, Firestore, Firebase, Cloud Load Balancing) · Vertex AI / Gemini · Google Apps Script · JavaScript · Python · WordPress
+Google Cloud (Cloud Run, Cloud Functions, Firestore, Firebase, Cloud Load Balancing) · Vertex AI / Gemini · Google Apps Script · JavaScript · Python · WordPress · HTML · CSS
 
 ---
 
